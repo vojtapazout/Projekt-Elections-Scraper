@@ -40,6 +40,14 @@ Aktivace virtuálního prostředí na windows
    pip install -r requirements.txt
 
 ---
+Pokud chceš zvolit jiný okres postupuj podle tohoto aby jsi měl jednoduchý příkaz pro spuštění:
+
+Použití: python main.py <URL_okresu> <nazev_vystupniho_csv>
+
+<URL_okresu> – odkaz na web volby.cz pro konkrétní okres
+
+<nazev_vystupniho_csv> – jméno souboru pro výsledky
+
 Spusť tento příkaz:
 
 python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2107" vysledky_mb.csv
