@@ -48,7 +48,7 @@ Použití: python main.py <URL_okresu> <nazev_vystupniho_csv>
 
 <nazev_vystupniho_csv> – jméno souboru pro výsledky
 
-Spusť tento příkaz:
+Spusť příkaz, který bude vypadat takto:
 
 python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2107" vysledky_mb.csv
 
