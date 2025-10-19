@@ -30,9 +30,13 @@ cd C:\Users\vojta\Desktop\Python
 Nevíš kam jsi uložil soubory? ----> zkus to znovu a lépe!
 ---
 
-Instalace:
+Aktivace virtuálního prostředí na windows:
 
-Aktivace virtuálního prostředí na windows
+Pro vytvoření venv složky zadej tento příkaz:
+
+python -m venv venv
+
+Aktivování virtuálního prostředí:
 
 1. zadej tento příkaz: venv\Scripts\activate.bat  
 
@@ -40,6 +44,10 @@ Aktivace virtuálního prostředí na windows
    pip install -r requirements.txt
 
 ---
+*poznámka autora
+pro vygenerování requirement souboru jsem použil pip freeze requirment.txt, nevím zda je to správně ale bylo to jediné co mi fungovalo když jsem hledal na webu o pomoc.
+---
+
 Pokud chceš zvolit jiný okres postupuj podle tohoto aby jsi měl jednoduchý příkaz pro spuštění:
 
 Použití: python main.py <URL_okresu> <nazev_vystupniho_csv>
@@ -61,7 +69,7 @@ python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnu
 * CSV obsahuje kód obce, název obce, voliči, obálky, platné hlasy a hlasy pro strany.
 
 příklad:
-535427;Bakov nad Jizerou;3922;2551;2539;864;285;295;252;204;179;153;113;42;36;27;32;18;4;4;8;3;6;1;2;2;1;3;1;2;2
+e535427;Bakov nad Jizerou;3922;2551;2539;864;285;295;252;204;179;153;113;42;36;27;32;18;4;4;8;3;6;1;2;2;1;3;1;2;2
 535443;Bělá pod Bezdězem;3805;2219;2204;802;215;253;218;214;107;153;61;38;33;28;33;9;8;1;3;2;7;4;4;4;1;0;3;3;0
 535451;Benátky nad Jizerou;5596;3269;3254;1041;533;306;323;225;176;198;151;77;58;58;24;26;10;9;6;12;6;3;4;1;3;2;1;0;1
 
